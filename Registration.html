@@ -1,112 +1,115 @@
-<DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="EN">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>
-        Registration Form 
+        Registration Form
     </title>
-    <body>
-        <h1>
-            Registration Form
-        </h1>
-        <form>
-            <fieldset>
-                <label>
+</head>
+
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <form>
+        <fieldset>
+            <label>
                 First Name: *
-                </label>
+            </label>
             <input type="text" name="firstname" id="firstname">
             <div>
                 <label>
-                Last Name: *
+                    Last Name: *
                 </label>
-            <input type="text" name="lastname" id="lastname">
+                <input type="text" name="lastname" id="lastname">
             </div>
             <div>
                 <label>
-                Email Address: *
+                    Email Address: *
                 </label>
-            <input type="text" name="emailaddress" id="emailaddress">
+                <input type="text" name="emailaddress" id="emailaddress">
             </div>
             <div>
                 <label>
-                Password: *
+                    Password: *
                 </label>
-            <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password">
             </div>
             <div>
                 <label>
-                Confirm Password: *
+                    Confirm Password: *
                 </label>
-            <input type="password" name="confirmpassword" id="confirmpassword">
+                <input type="password" name="confirmpassword" id="confirmpassword">
             </div>
             <div>
                 <label>
-                Birthday: 
+                    Birthday:
                 </label>
-            <input type="date" name="birthday" id="birthday">
+                <input type="date" name="birthday" id="birthday">
             </div>
-                <div>
-                    <h5>
-                        Gender Identity:
-                    </h5>
-                    <input type="radio" name="gender" id="male">
-                        <label>
-                            Male
-                        </label>
-                    <input type="radio" name="gender" id="female">
-                        <label>
-                            Female
-                        </label>
-                    <input type="radio" name="gender" id="nonbinary">
-                        <label>
-                            Non-Binary
-                        </label>
-                    <input type="radio" name="gender" id="prefernottosay">
-                        <label>
-                            I prefer not to say
-                        </label>
-                </div>
+            <div>
+                <h5>
+                    Gender Identity:
+                </h5>
+                <input type="radio" name="gender" id="male">
+                <label>
+                    Male
+                </label>
+                <input type="radio" name="gender" id="female">
+                <label>
+                    Female
+                </label>
+                <input type="radio" name="gender" id="nonbinary">
+                <label>
+                    Non-Binary
+                </label>
+                <input type="radio" name="gender" id="prefernottosay">
+                <label>
+                    I prefer not to say
+                </label>
+            </div>
             <div>
                 <label>
                     A short description about myself:
                 </label>
             </div>
-                <textarea></textarea>
-                    <div>
-                        <label>
-                            Favorite Language
-                        </label>
-                        <select name="language" id="language">
-                            <option value="English">
-                                English
-                            </option>
-                            <option value="Spanish">
-                                Spanish
-                            </option>
-                            <option value="Korean">
-                                Korean
-                            </option>
-                            <option value="German">
-                                German
-                            </option>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="emailupdate" id="emailupdates">
-                    </div>
-                    <div>
-                        <label>
-                            Yes, I would like to periodically recieve email updates
-                        </label>
-                    </div>
-                        <input type="submit" Value="Create Account">
-                        <div>
-                            <p1>
-                                * Indicates a required field
-                            </p1>
-                        </div>
-            </fieldset>
-        </form>
-    </body>
+            <textarea></textarea>
+            <div>
+                <label for="language">
+                    Favorite Language:
+                </label>
+                <select name="language" id="language">
+                    <option value="English" id="english">
+                        English
+                    </option>
+                    <option value="Spanish" id="spanish">
+                        Spanish
+                    </option>
+                    <option value="Korean">
+                        Korean
+                    </option>
+                    <option value="German">
+                        German
+                    </option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="emailupdate" id="emailupdate">
+                <label for="checkbox">
+                    Yes, I would not like to receive periodic email updates
+                </label>
+            </div>
+                <input type="submit" Value="Create Account">
+            <div>
+                <label>
+                    * Indicates a required field
+                </label>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
 </html>
